@@ -1,0 +1,4 @@
+entry_points:
+  plugins:
+    include:
+      - nomad_parser_ase:parser_entry_point
