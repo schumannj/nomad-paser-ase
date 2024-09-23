@@ -1,0 +1,8 @@
+diff a/src/nomad_parser_ase/parsers/parser.py b/src/nomad_parser_ase/parsers/parser.py	(rejected hunks)
+@@ -30,4 +29,4 @@ class NewParser(MatchingParser):
+     ) -> None:
+         logger.info('NewParser.parse', parameter=configuration.parameter)
+ 
+-        archive.workflow2 = Workflow(name='test')
+\ No newline at end of file
++        archive.workflow2 = Workflow(name='test')
